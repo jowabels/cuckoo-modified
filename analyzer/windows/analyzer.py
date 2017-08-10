@@ -1069,7 +1069,7 @@ class Analyzer:
                     log.warning("The package \"%s\" check function raised "
                                 "an exception: %s", package_name, e)
             finally:
-                # Zzz.
+                # Zzz. Whut
                 KERNEL32.Sleep(1000)
 
         # Create the shutdown mutex.
